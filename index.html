@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shokoitsme</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Анимированный фон -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <div class="main-container">
+      <!-- Профиль -->
+      <div class="profile-box">
+        <img
+          src="72ac446196b0dbda04600f2d31516081.jpg"
+          alt="userphoto"
+          class="user-photo"
+          id="userPhoto"
+        />
+        <h1 class="user-name">shokoitsme</h1>
+        <p class="user-desc">Product Manager, Software Architect, Designer</p>
+
+        <!-- Статистика -->
+        <div class="stats">
+          <div class="stat-item">
+            <span class="stat-number" id="projectsCount">50+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" id="experienceYears">3+</span>
+            <span class="stat-label">Years</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Проекты -->
+      <div class="section">
+        <h2><i class="fas fa-rocket"></i> New projects</h2>
+        <div class="projects">
+          <div class="project-card" data-status="soon">
+            <i class="fa-solid fa-ban-smoking"></i>
+            <h4>VAPE SHOP</h4>
+            <p>В разработке</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="project-card" data-status="soon">
+            <i class="fas fa-paint-brush"></i>
+            <h4>DESIGN STUDIO</h4>
+            <p>В разработке</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="project-card" data-status="soon">
+            <i class="fas fa-shopping-cart"></i>
+            <h4>CLOTHING STORE</h4>
+            <p>В разработке</p>
+            <div class="progress-bar">
+              <div class="progress" style="width: 2%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Опыт работы -->
+      <div class="section">
+        <div class="section-header" id="experienceHeader">
+          <h2><i class="fas fa-briefcase"></i> Partnership</h2>
+          <span class="toggle-arrow"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="experience-content" id="experienceContent">
+          <div class="experience-grid">
+            <div class="exp-category">
+              <h3><i class="fa-solid fa-user"></i> Community manager</h3>
+              <!-- osu!multimode -->
+              <div class="exp-item">
+                <div class="company-logo">
+                  <img
+                    src="/photo_projects/multimode2.png"
+                    alt="1"
+                    style="width: 35px; height: 35px; border-radius: 8px"
+                  />
+                </div>
+                <span>osu!multimode Community</span>
+                <div class="project-period">Август 2021 - Сентябрь 2023</div>
+                <div class="exp-details">
+                  <p>Пользователи: 10000+</p>
+                  <ul>
+                    <li>Создатель сервера</li>
+                    <li>Создание ботов и систем</li>
+                    <li>Работа с трафиком</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- zxcursed -->
+              <div class="exp-item">
+                <div class="company-logo">
+                  <img
+                    src="/photo_projects/cursed.jpg"
+                    alt="1"
+                    style="width: 35px; height: 35px; border-radius: 8px"
+                  />
+                </div>
+                <span>zxcursed</span>
+                <div class="project-period">Февраль 2021 - Ноябрь 2021</div>
+                <div class="exp-details">
+                  <p>Пользователи: 60000+</p>
+                  <ul>
+                    <li>Администрирование Discord проекта</li>
+                    <li>Создание систем сервера</li>
+                    <li>Работа с трафиком</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- shadowraze -->
+              <div class="exp-item">
+                <div class="company-logo">
+                  <img
+                    src="/photo_projects/raze.jpg"
+                    alt="1"
+                    style="width: 35px; height: 35px; border-radius: 8px"
+                  />
+                </div>
+                <span>Shadowraze</span>
+                <div class="project-period">Январь 2021 - Декабрь 2022</div>
+                <div class="exp-details">
+                  <p>Пользователи: 60000+</p>
+                  <ul>
+                    <li>Администрирование Discord проекта</li>
+                    <li>Создание систем сервера</li>
+                    <li>Работа с трафиком</li>
+                  </ul>
+                </div>
+              </div>
+
+              <p style="text-align: center">and others 20+</p>
+            </div>
+
+            <div class="exp-category">
+              <h3><i class="fas fa-paint-brush"></i> Designer</h3>
+              <div class="exp-item">
+                <div class="company-logo">
+                  <img
+                    src="/photo_projects/ux.jpg"
+                    alt="1"
+                    style="width: 35px; height: 35px; border-radius: 8px"
+                  />
+                </div>
+                <span>Design Studio - UI/UX дизайн</span>
+                <div class="project-period">
+                  Сентябрь 2023 - настоящее время
+                </div>
+                <div class="exp-details">
+                  <p>Пользователи: 300000+.</p>
+                  <ul>
+                    <li>Работа с большим количеством проектов 20+</li>
+                    <li>Анимации интерфейсов</li>
+                    <li>Создание промо</li>
+                    <li>Photoshop Team Lead</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="exp-item">
+                <div class="company-logo">
+                  <img
+                    src="/photo_projects/discord-logo-icon-editorial-free-vector.jpg"
+                    alt="1"
+                    style="width: 35px; height: 35px; border-radius: 8px"
+                  />
+                </div>
+                <span>Брендинг для Discord серверов</span>
+                <div class="project-period">Январь 2021 - Сентябрь 2023</div>
+                <div class="exp-details">
+                  <p>Пользователи: 500000+</p>
+                  <ul>
+                    <li>Работа с большим количеством проектов 20+</li>
+                    <li>Дизайн баннеров и иконок</li>
+                    <li>Создание эмодзи и стикеров</li>
+                    <li>Визуальная идентификация</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="exp-item">
+                <div class="company-logo">
+                  <img
+                    src="/photo_projects/a9728921-e9e0-488d-8199-24abacd43101.png"
+                    alt="1"
+                    style="width: 35px; height: 35px; border-radius: 8px"
+                  />
+                </div>
+                <span>Патриотическое движение в Челябинской области</span>
+                <div class="project-period">Декабрь 2020 - настоящее время</div>
+                <div class="exp-details">
+                  <p>Пользователи: 30000+</p>
+                  <ul>
+                    <li>
+                      Разработка логотипов и баннеров мероприятий в Photoshop
+                    </li>
+                    <li>Монтаж</li>
+                    <li>Проведение мероприятий</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Контакты -->
+      <div class="section">
+        <h2><i class="fas fa-paper-plane"></i> Contact with me</h2>
+        <div class="contact-links">
+          <a href="https://t.me/shokomee" class="contact-btn">
+            <i class="fas fa-envelope"></i> Telegram
+          </a>
+          <a
+            href="https://discordapp.com/users/965849444258033725"
+            class="contact-btn"
+          >
+            <i class="fab fa-discord"></i> Discord
+          </a>
+          <a href="https://github.com/shokoitsme" class="contact-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://t.me/zavoziww" class="social-icon">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://instagram.com/shokoitsme" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>open for questions and suggestions</p>
+        <p>made with <i class="fas fa-heart"></i> by shokoitsme</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
